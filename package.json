@@ -1,0 +1,34 @@
+{
+  "name": "2023-rocketseat-api-restfull",
+  "version": "1.0.0",
+  "description": "Repository to follow the course [Building a RESTful API](https://www.rocketseat.com.br/) with Node, Fastify and Knex",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "lint": "eslint src --ext .ts --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PedroHLongo/2023-rocketseat-api-restfull.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PedroHLongo/2023-rocketseat-api-restfull/issues"
+  },
+  "homepage": "https://github.com/PedroHLongo/2023-rocketseat-api-restfull#readme",
+  "devDependencies": {
+    "@rocketseat/eslint-config": "^1.2.0",
+    "@types/node": "^18.13.0",
+    "eslint": "^8.33.0",
+    "tsx": "^3.12.3",
+    "typescript": "^4.9.5"
+  },
+  "dependencies": {
+    "fastify": "^4.13.0"
+  },
+  "prettier": {
+    "singleQuote": true
+  }
+}
